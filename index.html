@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="google-style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="google-style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="images/new_google_favicon_256_AMw_icon.ico">
     <title>Dave Ross' Google</title>
   </head>
   <body>
@@ -17,18 +18,19 @@
         <ul class="top-nav-right">
           <li><a href="https://www.google.com/gmail">Gmail</a></li>
           <li><a href="https://www.google.com/images">Images</a></li>
-          <li><a href="#"><i class="material-icons">apps</i></a></li>
-          <li><a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Den%26ictx%3D2%26sa%3DX%26ved%3D0ahUKEwil2o2YrfLZAhUCd6wKHZQPBrIQPQgD&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><button type="button" class="btn btn-primary">Sign In</button></a></li>
+          <li><a href="#"><i class="material-icons app-icon">apps</i></a></li>
+          <li><a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Den%26ictx%3D2%26sa%3DX%26ved%3D0ahUKEwil2o2YrfLZAhUCd6wKHZQPBrIQPQgD&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><button type="button" class="btn btn-primary sign-on">Sign In</button></a></li>
         </ul>
       </div>
       <section class="center">
           <a href="index.html"><img class="logo" src="images/google.png" alt="Google Logo"></a>
           <div class="search-box">
             <input type="text">
+            <img id="mic" src="images/l5S4LZ2.png" height="25px";>
           </div>
           <div class="search-buttons">
-            <button class="srch-btn" name="search">Google Search</button>
-            <button class="lucky" name="lucky">I'm Feeling Lucky</button>
+            <button class="srch-btn" name="search" onclick="this.blur();">Google Search</button>
+            <button class="lucky" name="lucky" onclick="this.blur();">I'm Feeling Lucky</button>
           </div>
       </section>
       <footer class="footer">

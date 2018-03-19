@@ -1,5 +1,5 @@
 /*Reset Styles */
-body, li, img, a{
+body, li, img, a, .viewport{
   padding: 0;
   margin: 0;
   border: 0;
@@ -19,8 +19,7 @@ li{
 .nav-bar{
   height: 30px;
   position: absolute;
-  padding-top: 20px;
-  top: 0px;
+  top: 10px;
   left: 0px;
   right: 0px;
 }
@@ -38,22 +37,35 @@ li{
 }
 
 .top-nav-left{
+  padding-left: 15px;
   position: relative;
+  margin-top: 10px;
   float: left;
   left: 0px;
 }
 
 .top-nav-right{
   float: right;
-  padding-right: 20px;
-/*  position: relative;*/
+  padding-right: 15px;
 }
 
+.app-icon{
+  position: relative;
+  top: 7px;
+}
+
+.sign-on{
+  font-size: 13px;
+  font-weight: 700;
+  height: 30px;
+  width: 69.344px;
+  line-height: normal;
+}
 
 .center{
   position: relative;
   text-align: center;
-  padding-top: 196px;
+  top: 196px;
   margin-left: 237.5px;
   margin-right: 237.5px;
 }
@@ -63,13 +75,24 @@ li{
   top: 89px;*/
 }
 
+#mic{
+  position: absolute;
+  margin: 10px;
+  right: 0px;
+}
+
+#mic:hover{
+  cursor: pointer;
+}
+
 .search-box{
   position: relative;
   margin: 0 auto;
-  margin-top: 40px;
-  width: 428px;
+  margin-top: 35px;
+  width: 480px;
   height: 44px;
   box-shadow: rgb(128 128 128) 1px 1px 5px 0px;
+  /*box-sizing: border-box;*/
   /*margin: 0 auto;*/
   /*top: 20px;*/
 }
@@ -110,6 +133,15 @@ input:focus{
   border: none;
 }
 
+button:hover{
+  border: 1px solid black;
+  background-color: ;
+}
+
+button:active{
+  border: none;
+  box-shadow: none;
+}
 
 .footer{
   height: 40px;
@@ -121,13 +153,16 @@ input:focus{
 }
 
 .ftr-right, .ftr-left{
-    text-align: center;
 }
 
 .ftr-right{
   float: right;
+  margin-right: 30px;
+  margin-bottom: 0px;
 }
 
 .ftr-left{
+  padding-left: 27px;
+  margin-bottom: 0px;
   float: left;
 }
