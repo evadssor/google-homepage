@@ -36,7 +36,7 @@ li{
   text-decoration: underline;
 }
 
-.top-nav-left{
+.top-nav-left, .ftr-left{
   padding-left: 15px;
   position: relative;
   margin-top: 10px;
@@ -44,7 +44,8 @@ li{
   left: 0px;
 }
 
-.top-nav-right{
+.top-nav-right, .ftr-right{
+  position: relative;
   float: right;
   padding-right: 15px;
 }
@@ -107,6 +108,7 @@ input{
   font-size: 16px;
   font-weight: 400;
   position: absolute;
+  /*line-height: normal;*/
 
 }
 
@@ -152,17 +154,6 @@ button:active{
   background-color: #f2f2f2;
 }
 
-.ftr-right, .ftr-left{
-}
-
 .ftr-right{
-  float: right;
-  margin-right: 30px;
-  margin-bottom: 0px;
-}
-
-.ftr-left{
-  padding-left: 27px;
-  margin-bottom: 0px;
-  float: left;
+    margin-top: 10px;
 }
