@@ -19,6 +19,7 @@ li{
 .nav-bar{
   height: 30px;
   position: absolute;
+  padding-top: 20px;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -52,7 +53,7 @@ li{
 .center{
   position: relative;
   text-align: center;
-  padding-top: 189px;
+  padding-top: 196px;
   margin-left: 237.5px;
   margin-right: 237.5px;
 }
@@ -65,7 +66,9 @@ li{
 .search-box{
   position: relative;
   margin: 0 auto;
+  margin-top: 40px;
   width: 428px;
+  height: 44px;
   box-shadow: rgb(128 128 128) 1px 1px 5px 0px;
   /*margin: 0 auto;*/
   /*top: 20px;*/
@@ -74,9 +77,14 @@ li{
 input{
   height: 34px;
   width: 403px;
+  margin: 0 auto;
   display: block;
   padding-left: 10px;
   border: none;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+
 }
 
 input:focus{
@@ -96,18 +104,11 @@ input:focus{
   font-weight: 700;
   font-size: 13px;
   height: 36px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 11px 4px 11px 4px;
+  border: none;
 }
-
-.lucky{
-    width: 142px;
-}
-
-.srch-btn{
-  width: 125px;
-}
-
-
-
 
 
 .footer{
