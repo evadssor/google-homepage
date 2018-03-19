@@ -1,0 +1,132 @@
+/*Reset Styles */
+body, li, img, a{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.content{
+  margin: 0 auto;
+}
+
+li{
+  display: inline;
+  list-style-type: none;
+}
+
+.nav-bar{
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.nav-bar a, .footer a{
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.nav-bar a:hover, .footer a:hover{
+  color: grey;
+  text-decoration: underline;
+}
+
+.top-nav-left{
+  position: relative;
+  float: left;
+  left: 0px;
+}
+
+.top-nav-right{
+  float: right;
+  padding-right: 20px;
+/*  position: relative;*/
+}
+
+
+.center{
+  position: relative;
+  text-align: center;
+  padding-top: 189px;
+  margin-left: 237.5px;
+  margin-right: 237.5px;
+}
+
+.logo{
+  /*position: relative;
+  top: 89px;*/
+}
+
+.search-box{
+  position: relative;
+  margin: 0 auto;
+  width: 428px;
+  box-shadow: rgb(128 128 128) 1px 1px 5px 0px;
+  /*margin: 0 auto;*/
+  /*top: 20px;*/
+}
+
+input{
+  height: 34px;
+  width: 403px;
+  display: block;
+  padding-left: 10px;
+  border: none;
+}
+
+input:focus{
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+
+.search-buttons{
+  position: relative;
+  padding-top: 18px;
+}
+
+.srch-btn, .lucky{
+  background-color: #f2f2f2;
+  font-weight: 700;
+  font-size: 13px;
+  height: 36px;
+}
+
+.lucky{
+    width: 142px;
+}
+
+.srch-btn{
+  width: 125px;
+}
+
+
+
+
+
+.footer{
+  height: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #f2f2f2;
+}
+
+.ftr-right, .ftr-left{
+    text-align: center;
+}
+
+.ftr-right{
+  float: right;
+}
+
+.ftr-left{
+  float: left;
+}
