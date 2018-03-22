@@ -92,10 +92,15 @@ li{
   margin-top: 35px;
   width: 480px;
   height: 44px;
-  box-shadow: rgb(128 128 128) 1px 1px 5px 0px;
-  /*box-sizing: border-box;*/
-  /*margin: 0 auto;*/
-  /*top: 20px;*/
+  box-shadow: rgb(204, 204, 204) 0px 2px 2px 0px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top: 1px solid rgb(230, 230, 230);
+  border-bottom: none;
+  border-radius: 3px;
+}
+
+.search-box:hover{
+  box-shadow: rgb(204, 204, 204) 1px 4px 5px 0px
 }
 
 input{
